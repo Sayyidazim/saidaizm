@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(128, 128, 128);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.container p {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container p:last-child {
+    margin-bottom: 0;
+}
+
+.container h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+    /* margin: 10px 0 15px; */
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+
+
+.content {
+    box-shadow: 1px 1px 20px 0px;
+    border: 5px double rgba(12, 17, 61, 0.884);
+    border-radius: 20px;
+    background-color: rgb(206, 166, 117);
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.logotyipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    /* position: relative;
+    top: 10px;
+    left: 10px; */
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+    background-image: url('../img/background_2.jpg');
+    background-repeat: no-repeat;
+    border: 5px double #333;
+    box-shadow: 2px 2px 20px 0px;
+    border-radius: 20px;
+
+}
+
+strong {
+    color: rgba(34, 34, 116, 0.952);
+}
+
+i {
+    color: rgba(34, 34, 116, 0.952);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: red;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figcaption {
+    border: 3px double #292121;
+    border-top: 0;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.container li {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container h2 {
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+    /* margin: 10px 0 15px; */
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+    /* margin: 10px 0 15px; */
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+figure {
+    box-shadow: 1px 1px 20px 0px;
+}
